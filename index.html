@@ -1,0 +1,91 @@
+<html>
+  <head>
+  <title>Code Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <script src="js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+    
+  </head>
+  <body>
+    <div>
+        <ul>
+            <li><a href="/download/Babic_A_Thesis_II_Instructional_Plan.pdf" 
+              download="Babic_A_Thesis_II_Instructional_Plan.pdf">Download Book</a></li>
+            <li style="float:right"><a href="/download/Babic_A_Thesis_II_Instructional_Plan.pdf"
+              download="Babic_A_Thesis_II_Instructional_Plan.pdf">Download Chapter Three</a></li>
+            <li style="float:right"><a href="/download/Babic_A_Thesis_II_Instructional_Plan.pdf"
+              download="Babic_A_Thesis_II_Instructional_Plan.pdf">Download Chapter Two</a></li>
+            <li style="float:right"><a href="/download/Babic_A_Thesis_II_Instructional_Plan.pdf"
+              download="Babic_A_Thesis_II_Instructional_Plan.pdf">Download Chapter One</a></li>
+          </ul>
+        </div>
+        <div class="content">
+      <img src="images/logo.png" width=200px alt="logo">
+      <h1>now let's code!</h1>
+      <p>Download the instructional plan below!</p>
+
+    <!--
+    <div>
+        <a href="/download/NewResume.pdf" download="instructional plan">
+          <img src="/images/download-01.png" width=100px alt="plan">
+        </a>
+    </div>
+  -->
+    <br></br>
+
+    <div>
+      <textarea id="js" placeholder="Place Code Within This Textbox :)"></textarea>
+    </div>
+    <div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <button type="button" onclick="compile()">Run 🏃🏼</button>
+      <button type="submit"  onClick="refreshPage()">Reload ♺</button>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <h1>FAQs</h1>
+    <hr>
+    <br></br>
+    <h2 id="question1">What is code-ometry?</h2>
+    <p id="answer1">Code-ometry is an online visual code editor that was created to be used in teaching computational thinking and programming to students in grade school. The website is to be used in conjunction with the instructional plan (also given above), in order to teach basic concepts of code whilst reinforcing the overall and specific objectives of the geometry unit in mathematics. Simply put, the instructional plan allows for teachers to use code-ometry in lieu of testing, with each lesson within the instructional plan taking about 15-30 minutes to complete. As for experience with coding, the instructional plan is written and tested in order to appeal to students in grade school, with very little room for error. There is a troubleshooting guide as well as a rubric for the teacher to be able to evaluate the work as it is being completed. </p>
+    <br></br>
+    <h2 id="question2">How does code-ometry work?</h2>
+    <p id="answer2">Code-ometry was built on the processing library of code, specifically p5.js, running the visual portion of the code in the editor. Code-ometry was then given a simplified look to it in order to be less intimidating. If one were to take a look at the code, one would note that it is built purely in HTML, js, and CSS, with aid from the p5.js library. As of September 2019, code-ometry is the first and only simplified p5.js visual editor on the internet. </p>
+    <br></br>
+    <h2 id="question3">What are the benefits of code-ometry?</h2>
+    <p id="answer3">Simply put, teaching student computational thinking and programming helps in three key areas:</p>
+       <p>  1. Children with computational thinking knowledge perform better academically overall. </p>
+        <p> 2. Children with computational thinking knowledge become better critical thinkers and problem solvers.</p>
+        <p> 3. Children with computational thinking knowledge have more confidence when presented situations with uncertainty.</p>
+  </section>
+  </div>
+    <div id="preview"></div>
+  <div>
+    <br></br>
+  </div>
+  <hr>
+  <br></br>
+  <div class="footer">
+      <h3>designed + cared for by Andrej Babić</h3>
+      <h3>forever free.</h3>
+      <h3>code-ometry.</h3>
+      <a href="page2.html" target="_self">🐍</a>
+    </div>
+<br></br>
+  <div></div>
+
+  </body>
+</html>
